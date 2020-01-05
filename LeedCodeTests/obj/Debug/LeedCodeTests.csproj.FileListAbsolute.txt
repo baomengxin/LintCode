@@ -1,0 +1,12 @@
+D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\bin\Debug\LeedCodeTests.dll
+D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\bin\Debug\LeedCodeTests.pdb
+D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\bin\Debug\LeedCode.exe
+D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\bin\Debug\LeedCode.pdb
+D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\bin\Debug\LeedCode.exe.config
+D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\obj\Debug\LeedCodeTests.csprojAssemblyReference.cache
+D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\obj\Debug\LeedCodeTests.csproj.CoreCompileInputs.cache
+D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\obj\Debug\LeedCodeTests.csproj.CopyComplete
+D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\obj\Debug\LeedCodeTests.dll
+D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\obj\Debug\LeedCodeTests.pdb
