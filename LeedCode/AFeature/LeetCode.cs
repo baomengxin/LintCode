@@ -1,4 +1,4 @@
-﻿namespace LeedCode.Feature
+﻿namespace LeedCode.AFeature
 {
 	public interface LeetCode
 	{

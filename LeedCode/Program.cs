@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace LeedCode
 {
@@ -6,7 +7,15 @@ namespace LeedCode
 	{
 		static void Main(string[] args)
 		{
-			var testClass = new LeetCode3LongestSubstring();
+
+			Parallel.Invoke(() =>
+			{
+				System.Threading.Thread.Sleep(5000);
+
+			});
+
+
+		  var testClass = new LeetCode3LongestSubstring();
 			string testString = "abba";
 
 			var result = testClass.LengthOfLongestSubstring(testString);

@@ -55,7 +55,6 @@ namespace LeedCode
 			int[] delx = { 0, 0, -1, 1 };
 			int[] dely = { 1, -1, 0, 0 };
 			bool[,] isVisitedTreeNode = new bool[matrixRowLength, matrixColLength];
-			int distance = 0; 
 			while (q.Count > 0)
 			{
 				var selectedTreeNode = q.Dequeue();

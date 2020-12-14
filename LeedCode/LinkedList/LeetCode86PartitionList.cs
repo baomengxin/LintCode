@@ -1,4 +1,4 @@
-﻿using LeedCode.Feature;
+﻿using LeedCode.AFeature;
 
 namespace LeedCode.LinkedList
 {
@@ -39,7 +39,6 @@ namespace LeedCode.LinkedList
 		/// <returns></returns>
 		public ListNode Partition(ListNode head, int x)
 		{
-			int index = 0;
 			if (head == null)
 				return null;
 			ListNode headCopy = head;

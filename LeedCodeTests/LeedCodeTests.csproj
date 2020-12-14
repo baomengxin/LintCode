@@ -8,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LeedCodeTests</RootNamespace>
     <AssemblyName>LeedCodeTests</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -58,12 +58,33 @@
     <Compile Include="Amazon629MinimumSpanningTreeTests.cs" />
     <Compile Include="AmazonBFSTests.cs" />
     <Compile Include="AmazonCalculateDistanceOfPointsTests.cs" />
+    <Compile Include="Array\AmazonOAFiveStarSellersTests.cs" />
+    <Compile Include="Array\AmazonOATransactionLogTests.cs" />
+    <Compile Include="Array\LeetCode78SubSetsTests.cs" />
+    <Compile Include="Array\LeetCode90Subset2Tests.cs" />
     <Compile Include="Array\LinkCode31PartitionArrayTests.cs" />
+    <Compile Include="BFS\AmazonOATreasureIsland1Tests.cs" />
+    <Compile Include="BFS\LeetCode126_Word_Ladder_IITests.cs" />
+    <Compile Include="DFS\LeetCode131PalindromePartitioningTests.cs" />
+    <Compile Include="DFS\LeetCode39CombinationSumTests.cs" />
+    <Compile Include="DFS\LeetCode472_Concatenated_WordsTests.cs" />
+    <Compile Include="DP\LeetCode410SplitArrayLargestSumTests.cs" />
+    <Compile Include="Graph\AmazonOAShoppingPatternTests.cs" />
+    <Compile Include="Graph\LeetCode547FriendCircleTests.cs" />
     <Compile Include="LinkedList\LeetCode2AddTwoNumbersTests.cs" />
     <Compile Include="LinkedList\LeetCode86PartitionListTests.cs" />
+    <Compile Include="Math\RoundTests.cs" />
+    <Compile Include="OA\AmazonOATurnstileTests.cs" />
+    <Compile Include="OA\AmazonOAUtilisationChecksTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="String\AmazonOAFreshPromotionTests.cs" />
+    <Compile Include="String\AmazonOAItemsInContainerTests.cs" />
+    <Compile Include="String\AmazonOASubstringOfSizeKTests.cs" />
     <Compile Include="String\LongestPalindromicSubstringTests.cs" />
     <Compile Include="String\ReverseStringWordByWordTests.cs" />
+    <Compile Include="TestHelper.cs" />
+    <Compile Include="九章\Algorithme1.cs" />
+    <Compile Include="九章\Algorithme2.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeedCode\LeedCode.csproj">

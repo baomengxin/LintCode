@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>LeedCode</RootNamespace>
     <AssemblyName>LeedCode</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,7 +45,47 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ABaseClass\TreeNode.cs" />
+    <Compile Include="AFeature\AmazonOA2020.cs" />
+    <Compile Include="AFeature\Easy.cs" />
+    <Compile Include="AFeature\Hard.cs" />
+    <Compile Include="AFeature\Medium.cs" />
+    <Compile Include="AFeature\Time.cs" />
+    <Compile Include="Array\AmazonOAFiveStarSellers.cs" />
+    <Compile Include="Array\AmazonOATransactionLog.cs" />
+    <Compile Include="Array\LeetCode240SearchA2DMatrix2.cs" />
+    <Compile Include="Array\LeetCode407TrappingRainWater2.cs" />
+    <Compile Include="Array\LeetCode42TrappingRainWater.cs" />
+    <Compile Include="Array\LeetCode560SubarraySumEqualsK.cs" />
+    <Compile Include="Array\LeetCode74SearchA2DMatrix.cs" />
+    <Compile Include="Array\LeetCode78SubSets.cs" />
+    <Compile Include="Array\LeetCode90Subset2.cs" />
+    <Compile Include="Array\LintCode61SearchForARange.cs" />
+    <Compile Include="BFS\AmazonOATreasureIsland1.cs" />
+    <Compile Include="BFS\LeetCode126_Word_Ladder_II.cs" />
+    <Compile Include="BFS\LeetCode200NumberOfIslandes.cs" />
+    <Compile Include="DFS\LeetCode131PalindromePartitioning.cs" />
+    <Compile Include="DFS\LeetCode39CombinationSum.cs" />
+    <Compile Include="DFS\LeetCode46Permutations.cs" />
+    <Compile Include="DFS\LeetCode472_Concatenated_Words.cs" />
+    <Compile Include="DFS\LeetCode47Permutation2.cs" />
+    <Compile Include="DFS\LeetCode93RestoreIPAddress.cs" />
+    <Compile Include="DP\LeetCode410SplitArrayLargestSum.cs" />
+    <Compile Include="Graph\AmazonOAShoppingPattern.cs" />
+    <Compile Include="Graph\LeetCode547FriendCircle.cs" />
+    <Compile Include="Graph\SkylineProblem.cs" />
+    <Compile Include="Heap\LeetCode239SlidingWindowMaxium.cs" />
+    <Compile Include="LinkedList\LeetCode146LRUCache.cs" />
     <Compile Include="LinkedList\lintCodeTwoLinkAdd.cs" />
+    <Compile Include="Maths\Round.cs" />
+    <Compile Include="OA\AmazonOATurnstile.cs" />
+    <Compile Include="OA\AmazonOAUtilisationChecks.cs" />
+    <Compile Include="String\32_Longest_Valid_Parentheses.cs" />
+    <Compile Include="String\AmazonOAFreshPromotion.cs" />
+    <Compile Include="String\AmazonOAItemsInContainer.cs" />
+    <Compile Include="String\AmazonOASubstringOfSizeK.cs" />
+    <Compile Include="String\LeetCode139WordBreak.cs" />
+    <Compile Include="String\LeetCode8StringToInteger.cs" />
+    <Compile Include="Tree\563_Binary_Tree_Tilt.cs" />
     <Compile Include="String\LeetCode3LongestSubstring.cs" />
     <Compile Include="LinkedList\Amazon105CopyListWithRandomPointer.cs" />
     <Compile Include="AddNumber\Amazon604WindoSum.cs" />
@@ -66,13 +107,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="String\LongestPalindromicSubstring.cs" />
     <Compile Include="String\ReverseStringWordByWord.cs" />
+    <Compile Include="Tree\Class1.cs" />
+    <Compile Include="Tree\LeetCode543DiameterOfBinaryTree.cs" />
     <Compile Include="Tree\LintCode88LowestCommonAncestorOfABinaryTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Graph\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

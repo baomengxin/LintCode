@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using LeedCode.Feature;
+using LeedCode.AFeature;
 
 namespace LeedCode
 {
@@ -102,7 +102,7 @@ namespace LeedCode
 			return new int[0];
 		}
 
-		public int NumberLeetCode => 219;
+		public int NumberLeetCode => 210;
 		public string UrlLeetCode => "https://leetcode.com/problems/course-schedule-ii/";
 
 		public int[] FindOrder(int numCourses, int[,] prerequisites)

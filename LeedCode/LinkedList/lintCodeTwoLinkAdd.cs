@@ -1,4 +1,4 @@
-﻿using LeedCode.Feature;
+﻿using LeedCode.AFeature;
 
 namespace LeedCode.LinkedList
 {

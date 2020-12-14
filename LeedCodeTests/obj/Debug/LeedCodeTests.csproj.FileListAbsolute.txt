@@ -10,3 +10,15 @@ D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\obj\Debug\LeedCodeT
 D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\obj\Debug\LeedCodeTests.csproj.CopyComplete
 D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\obj\Debug\LeedCodeTests.dll
 D:\Projets\Personnal project\LeetCode\LeedCode\LeedCodeTests\obj\Debug\LeedCodeTests.pdb
+D:\LintCode\LeedCodeTests\obj\Debug\LeedCodeTests.csprojAssemblyReference.cache
+D:\LintCode\LeedCodeTests\obj\Debug\LeedCodeTests.csproj.CoreCompileInputs.cache
+D:\LintCode\LeedCodeTests\obj\Debug\LeedCodeTests.dll
+D:\LintCode\LeedCodeTests\obj\Debug\LeedCodeTests.pdb
+D:\LintCode\LeedCodeTests\bin\Debug\LeedCodeTests.dll
+D:\LintCode\LeedCodeTests\bin\Debug\LeedCodeTests.pdb
+D:\LintCode\LeedCodeTests\bin\Debug\LeedCode.exe
+D:\LintCode\LeedCodeTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\LintCode\LeedCodeTests\bin\Debug\LeedCode.pdb
+D:\LintCode\LeedCodeTests\bin\Debug\LeedCode.exe.config
+D:\LintCode\LeedCodeTests\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\LintCode\LeedCodeTests\obj\Debug\LeedCodeTests.csproj.CopyComplete

@@ -35,7 +35,7 @@ namespace LeedCode
 
 			foreach (var point in points)
 			{
-				double distanceToOriginalPoint = Math.Pow(point.X, 2) + Math.Pow(point.Y, 2);
+				double distanceToOriginalPoint = System.Math.Pow(point.X, 2) + System.Math.Pow(point.Y, 2);
 				//TODO: method
 				if (double.IsNegativeInfinity(distanceToOriginalPoint) ||
 				    double.IsPositiveInfinity(distanceToOriginalPoint) || double.IsNaN(distanceToOriginalPoint))
@@ -86,7 +86,6 @@ namespace LeedCode
 				orderby pair.Value ascending
 				select pair).Take(numDeliveries);
 
-			int selectedItemNumber = 0;
 			foreach (var keyValuePair in orderedDistanceToPointList)
 			{
 				result.Add(new List<int>(){keyValuePair.Key.X, keyValuePair.Key.Y

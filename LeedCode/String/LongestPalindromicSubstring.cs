@@ -1,4 +1,4 @@
-﻿using LeedCode.Feature;
+﻿using LeedCode.AFeature;
 
 namespace LeedCode.String
 {
@@ -15,6 +15,54 @@ namespace LeedCode.String
 	//Output: "bb"
 	public class LongestPalindromicSubstring : LeetCode, Amazon
 	{
+
+
+		public string LongestPalindrome(string s)
+		{
+			if (string.IsNullOrEmpty(s))
+				return "";
+
+			string result = "";
+
+
+			for (int i = 0; i < s.Length; i++)
+			{
+				string longestPalindromicString = FindPalindromicString(s, i);
+				if (longestPalindromicString.Length > result.Length)
+					result = longestPalindromicString;
+
+			}
+
+			return result;
+
+		}
+
+		private string FindPalindromicString(string s, int index)
+		{
+
+			string result1 = "";
+			string result2 = "";
+
+			for (int i = 0; i <= index && i + index < s.Length; i++)
+			{
+				if (s[index + i] == s[index - i])
+					result1 = s.Substring(index - i, 2*i + 1);
+				else break;
+			}
+
+			for (int i = 0; i <= index && i + index + 1 < s.Length; i++)
+			{
+				if (s[index + 1 + i] == s[index - i])
+					result2 = s.Substring(index - i, 2*i + 2);
+				else
+					break;
+			}
+
+			return result1.Length > result2.Length ? result1 : result2;
+
+		}
+
+
 		/// <summary>
 		/// Simplest way O(n3)
 		/// </summary>
