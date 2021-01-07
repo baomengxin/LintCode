@@ -7,7 +7,7 @@ namespace LeedCode.DFS
 {
 	public class LeetCode93RestoreIPAddress : LeetCode
 	{
-		public int NumberLeetCode => throw new NotImplementedException();
+		public int NumberLeetCode => 93;
 
 		public string UrlLeetCode => throw new NotImplementedException();
 

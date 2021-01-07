@@ -8,11 +8,15 @@ namespace LeedCode.Tree
 	//   Given a binary tree, you need to compute the length of the diameter of the tree.
 	//The diameter of a binary tree is the length of the longest path between any two nodes in a tree.
 	//This path may or may not pass through the root.
-	public class LeetCode543DiameterOfBinaryTree : LeetCode
+	public class LeetCode543DiameterOfBinaryTree : LeetCode, LintCode
 	{
 		public int NumberLeetCode => 543;
 
 		public string UrlLeetCode => "https://leetcode.com/problems/diameter-of-binary-tree/";
+
+		public int NumberLintCode => 1181;
+
+		public string UrlLintCode => "https://www.lintcode.com/problem/diameter-of-binary-tree/description?_from=ladder&&fromId=137";
 
 		int _diameter = 0;
 		TreeNode _root;

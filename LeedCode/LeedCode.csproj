@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ABaseClass\Node.cs" />
     <Compile Include="ABaseClass\TreeNode.cs" />
     <Compile Include="AFeature\AmazonOA2020.cs" />
     <Compile Include="AFeature\Easy.cs" />
@@ -69,8 +70,12 @@
     <Compile Include="DFS\LeetCode472_Concatenated_Words.cs" />
     <Compile Include="DFS\LeetCode47Permutation2.cs" />
     <Compile Include="DFS\LeetCode93RestoreIPAddress.cs" />
+    <Compile Include="DP\CherryPicker2.cs" />
+    <Compile Include="DP\LeetCode1345JumpingGame4.cs" />
     <Compile Include="DP\LeetCode410SplitArrayLargestSum.cs" />
     <Compile Include="Graph\AmazonOAShoppingPattern.cs" />
+    <Compile Include="Graph\LeetCode133CloneGraph.cs" />
+    <Compile Include="Graph\LeetCode210CourseSchedule2.cs" />
     <Compile Include="Graph\LeetCode547FriendCircle.cs" />
     <Compile Include="Graph\SkylineProblem.cs" />
     <Compile Include="Heap\LeetCode239SlidingWindowMaxium.cs" />
@@ -110,6 +115,7 @@
     <Compile Include="Tree\Class1.cs" />
     <Compile Include="Tree\LeetCode543DiameterOfBinaryTree.cs" />
     <Compile Include="Tree\LintCode88LowestCommonAncestorOfABinaryTree.cs" />
+    <Compile Include="Tree\LintCode892AlienDictionary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -26,5 +26,11 @@ namespace LeedCodeTests.九章
 
 
 		}
+
+
+		public int CanFind(Func<int, int> function)
+		{
+			return function(1);
+		}
 	}
 }

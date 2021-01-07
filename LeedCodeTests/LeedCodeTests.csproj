@@ -68,6 +68,7 @@
     <Compile Include="DFS\LeetCode131PalindromePartitioningTests.cs" />
     <Compile Include="DFS\LeetCode39CombinationSumTests.cs" />
     <Compile Include="DFS\LeetCode472_Concatenated_WordsTests.cs" />
+    <Compile Include="DP\LeetCode1345JumpingGame4Tests.cs" />
     <Compile Include="DP\LeetCode410SplitArrayLargestSumTests.cs" />
     <Compile Include="Graph\AmazonOAShoppingPatternTests.cs" />
     <Compile Include="Graph\LeetCode547FriendCircleTests.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="String\LongestPalindromicSubstringTests.cs" />
     <Compile Include="String\ReverseStringWordByWordTests.cs" />
     <Compile Include="TestHelper.cs" />
+    <Compile Include="Tree\LintCode892AlienDictionaryTests.cs" />
     <Compile Include="九章\Algorithme1.cs" />
     <Compile Include="九章\Algorithme2.cs" />
   </ItemGroup>

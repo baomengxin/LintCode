@@ -27,10 +27,6 @@ namespace LeedCode.Array
 			int totalLayer = nums.Length;
 
 			//int currentLayer = 0;
-
-
-
-
 			result = GetSubSets(nums, 0, nums.Length - 1);
 			result.Add(new List<int>());
 
