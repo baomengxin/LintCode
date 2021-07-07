@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -82,6 +83,7 @@
     <Compile Include="LinkedList\LeetCode146LRUCache.cs" />
     <Compile Include="LinkedList\lintCodeTwoLinkAdd.cs" />
     <Compile Include="Maths\Round.cs" />
+    <Compile Include="OA\AmazonOAPrimeAirRoute.cs" />
     <Compile Include="OA\AmazonOATurnstile.cs" />
     <Compile Include="OA\AmazonOAUtilisationChecks.cs" />
     <Compile Include="String\32_Longest_Valid_Parentheses.cs" />
@@ -116,6 +118,7 @@
     <Compile Include="Tree\LeetCode543DiameterOfBinaryTree.cs" />
     <Compile Include="Tree\LintCode88LowestCommonAncestorOfABinaryTree.cs" />
     <Compile Include="Tree\LintCode892AlienDictionary.cs" />
+    <Compile Include="Tree\SegmentTree\LeetCode307RangeSumQuery_Mutable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -75,6 +75,7 @@
     <Compile Include="LinkedList\LeetCode2AddTwoNumbersTests.cs" />
     <Compile Include="LinkedList\LeetCode86PartitionListTests.cs" />
     <Compile Include="Math\RoundTests.cs" />
+    <Compile Include="OA\AmazonOAPrimeAirRouteTests.cs" />
     <Compile Include="OA\AmazonOATurnstileTests.cs" />
     <Compile Include="OA\AmazonOAUtilisationChecksTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
